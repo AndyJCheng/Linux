@@ -1,5 +1,12 @@
 # ubuntu  
 ## 1 sudo whiout passwd  
-  vim /etc/sudoers, add   
-  andy    ALL=(ALL:ALL) ALL  
-  %andy ALL=(ALL) NOPASSWD:NOPASSWD  
+   vim /etc/sudoers, add   
+   andy    ALL=(ALL:ALL) ALL  
+   %andy ALL=(ALL) NOPASSWD:NOPASSWD  
+  
+## 2 install google chrome  
+   wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -  
+   echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | sudo tee /etc/apt/sources.list.d/google-          chrome.list  
+   sudo apt-get update  
+   sudo apt-get -y install google-chrome-stable  
+   sudo apt-get -y install google-chrome-beta  
