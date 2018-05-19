@@ -20,7 +20,7 @@
    
 ## ping unkown host  
    vim /etc/resolv.conf  
-   #nameserver 127.0.0.53(must be annotated)
-   nameserver 8.8.8.8
-   nameserver 4.4.4.4
+   #nameserver 127.0.0.53(must be annotated)  
+   nameserver 8.8.8.8  
+   nameserver 4.4.4.4  
 
