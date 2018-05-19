@@ -17,3 +17,10 @@
    how to create venv? python3 -m venv flask  
    how to active venv? ssource activate   
    sudo apt install python3-flask  
+   
+## ping unkown host  
+   vim /etc/resolv.conf  
+   #nameserver 127.0.0.53(must be annotated)
+   nameserver 8.8.8.8
+   nameserver 4.4.4.4
+
