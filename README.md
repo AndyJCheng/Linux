@@ -11,9 +11,9 @@
    sudo apt-get -y install google-chrome-stable  
    sudo apt-get -y install google-chrome-beta  
    
-## 3 install pip,venv,flask
-   sudo apt install python3-pip
-   sudo apt install python3-venv
-   how to create venv? python3 -m venv flask
-   how to active venv? ssource activate 
-   sudo apt install python3-flask
+## 3 install pip,venv,flask  
+   sudo apt install python3-pip  
+   sudo apt install python3-venv  
+   how to create venv? python3 -m venv flask  
+   how to active venv? ssource activate   
+   sudo apt install python3-flask  
