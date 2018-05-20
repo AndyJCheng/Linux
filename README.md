@@ -23,4 +23,14 @@
    #nameserver 127.0.0.53(must be annotated)  
    nameserver 8.8.8.8  
    nameserver 4.4.4.4  
+ ##  5 add Dsktop on ubuntu
+   [Desktop Entry]  
+   Type=Application   
+   Name=Pycharm  
+   GenericName=Pycharm3  
+   Comment=Pycharm3:The Python IDE  
+   Exec="/home/snakeson/developer/pycharm-community-2017.2.3/bin/pycharm.sh" %f  
+   Icon=/home/snakeson/developer/pycharm-community-2017.2.3/bin/pycharm.png   
+   Terminal=pycharm  
+   Categories=Pycharm;  
 
